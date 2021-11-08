@@ -42,9 +42,8 @@ object DayTwo {
         var validPass = 0
         input.forEach { passWordInfo ->
             if (
-                (passWordInfo.password[passWordInfo.minChar - 1].toString() == passWordInfo.char).xor(
-                    passWordInfo.password[passWordInfo.maxChar - 1].toString() == passWordInfo.char
-                )
+                (passWordInfo.password[passWordInfo.minChar - 1].toString() == passWordInfo.char) xor
+                (passWordInfo.password[passWordInfo.maxChar - 1].toString() == passWordInfo.char)
             ) {
                 validPass++
             }

@@ -1,4 +1,5 @@
-fun main(args: Array<String>) {
-    DayTwo.partTwo()
+fun main() {
+    DayThree.partOne()
+    DayThree.partTwo()
 }
 
