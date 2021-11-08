@@ -25,7 +25,7 @@ object DayTwo {
     private val input = getDAtaFromFile()
 
     fun partOne() {
-        var validPass: Int = 0
+        var validPass = 0
         input.forEach { passwordInfo ->
             val charNumber = passwordInfo.password.filter {
                 it.toString() == passwordInfo.char
