@@ -1,10 +1,10 @@
 
 plugins {
-    kotlin("jvm") version "1.5.31"
+    kotlin("jvm") version "1.8.20"
     application
 }
 
-group = "me.sam"
+group = "com.otienosamwel"
 version = "1.0-SNAPSHOT"
 
 repositories {
