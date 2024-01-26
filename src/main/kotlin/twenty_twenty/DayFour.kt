@@ -1,3 +1,5 @@
+package twenty_twenty
+
 import java.io.File
 
 object DayFour {
@@ -5,7 +7,7 @@ object DayFour {
     private fun getDAtaFromPFile(): List<String> {
         val data = mutableListOf<String>()
         val buffer = mutableListOf<String>()
-        val input: List<String> = File("./data/dayFour.txt").bufferedReader().use { it.readLines() }
+        val input: List<String> = File("./data/dayFour.txt.txt").bufferedReader().use { it.readLines() }
 
 
         input.forEach { line ->

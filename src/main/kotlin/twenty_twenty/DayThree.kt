@@ -1,3 +1,5 @@
+package twenty_twenty
+
 import java.io.File
 
 object DayThree {
