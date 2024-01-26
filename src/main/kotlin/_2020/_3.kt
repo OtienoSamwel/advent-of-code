@@ -1,4 +1,4 @@
-package twenty_twenty
+package _2020
 
 import java.io.File
 

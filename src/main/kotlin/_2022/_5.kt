@@ -1,4 +1,4 @@
-package twenty_twenty_two
+package _2022
 
 import java.io.File
 import java.io.InputStream
